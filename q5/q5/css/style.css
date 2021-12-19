@@ -1,1 +1,120 @@
 @charset "UTF-8";
+
+.item{
+  color: #fff;
+  background: #00bbdd;
+  width: 65px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.first-1{
+  display: flex;
+  flex-direction: row;
+}
+
+.first-2{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.first-3{
+  display: flex;
+  flex-direction: column;
+}
+
+.first-4{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.second-1{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.second-2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.second-3{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.third-1{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.third-2{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.third-3{
+  display: flex;
+  justify-content: center;
+}
+
+.third-4{
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-5{
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-2{
+  background:  #00bbdd;
+  color:  #fff;
+  padding: 10px;
+}
+
+.forth-1{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  gap: 10px;
+}
+
+.forth-2{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.forth-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  gap: 10px;
+  margin-top: 20px;
+}
+.forth-4{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.red-box{
+  background: #dd0700;
+  grid-column: 1/3;
+
+}
+
+.green-box{
+  background: #0bdd00;
+  grid-row: 2/4;
+}
+
+.yellow-box{
+  background: #d9dd00;
+  grid-column: 2/4;
+}
